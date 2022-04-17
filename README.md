@@ -31,3 +31,7 @@ the eyelids divided by its horizontal distance.
   5-->  Now we check if the aspect ratio value is less than 0.25 (0.25was
 chosen as a base case after some tests). If it is less the user is warned.
 
+  <h1>Results: </h1>
+  
+  ![image](https://user-images.githubusercontent.com/87674698/163694998-876cbf42-9f16-428c-b4c0-78cd6aa98e44.png)
+
