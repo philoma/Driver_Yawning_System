@@ -1,10 +1,10 @@
 # Driver_Yawning
 There are some rules and codes of conduct for those who drive irrespective of their social status. One of them is staying alert and active while driving.
-Neglecting our duties towards safer travel has enabled hundreds of
+Neglecting our duties toward safer travel has enabled hundreds of
 thousands of tragedies to get associated with this wonderful invention
 every year. It may seem like a trivial thing to most folks but following rules
 and regulations on the road is of utmost importance.
-So, <b>in order to mitigate the chances of road accidents, I've built an AI-ML model to alert the driver of his conciousness while driving the vehicle.<b>
+So, <b>in order to mitigate the chances of road accidents, I've built an AI-ML model to alert the driver of his consciousness while driving the vehicle.<b>
   <br>
   System Model:
   <br>
@@ -16,14 +16,14 @@ landmarks.
   
   ![image](https://user-images.githubusercontent.com/87674698/160772991-76839315-5781-4e13-9934-1366e7d28b68.png)
   
-  2 -->  After passing our video feed to thedlib frame by frame, we are able to
+  2 -->  After passing our video feed to dlib frame by frame, we are able to
 detect left eye and right eye features of the face.
   
   3 --> Now, we drew contours around it using OpenCV.
   
-  4 -->  Using Scipy’s Euclidean function, we calculated sum of both eyes’
+  4 -->  Using Scipy’s Euclidean function, we calculated the sum of both eyes’
 aspect ratio which is the sum of 2 distinct vertical distances between
-the eyelids divided by its horizontal distance.
+the eyelids divided by their horizontal distance.
   
  ![image](https://user-images.githubusercontent.com/87674698/160823758-564284fa-4ec2-478d-860b-d2b5a2ec604f.png)
 
